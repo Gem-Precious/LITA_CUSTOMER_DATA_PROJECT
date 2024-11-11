@@ -58,13 +58,19 @@ The analysis are summarized as follows:
 - The number of active subscriptions is higher than number of canceled subscriptions
 
 
+### Conclusion
+
+- Basic is the highest subscription used mostly in the east and north regions
+- Basic has the most active subcriptions and generates the highest revenue
+
+
 ### Recommendations
 
 Based on the analysis, we recommend the following actions:
 
 - Focus on expanding and promoting Basic subscriptions
 - Implement a customer segmentation strategy to target high-LTV customers effectively
-- 
+- More marketing strategies should be implemented in the east region to generate more revenue
  
 
  
