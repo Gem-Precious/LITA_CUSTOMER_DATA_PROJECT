@@ -26,15 +26,32 @@ In the initial data preparation phase, the following tasks were performed:
 
  ### Questions
 
-- Retrieve the total sales for each product category.
-- Find the number of sales transactions in each region.
-- Find the highest-selling product by total sales value.
-- Calculate total revenue per product.
-- Calculate monthly sales totals for the current year.
-- Find the top 5 customers by total purchase amount.
-- Calculate the percentage of total sales contributed by each region.
-- Identify products with no sales in the last quarter. 
- 
+- Retrieve the total number of customers from each region
+- Find the most popular subscription type by the number of customers
+- Find customers who canceled their subscription within 6 months
+- Calculate the average subscription duration for all customers
+- Find customers with subscriptions longer than 12 months
+- Calculate total revenue by subscription type
+- Find the top 3 regions by subscription cancellations
+- Find the total number of active and canceled subscriptions
+
+  
+ ### Data Analysis
+
+ Some interesting codes worked with:
+
+ ~~~ SQL
+
+~~~
+
+### Results
+
+The analysis are summarized as follows:
+
+- The number of customers in each region are almost evenly distributed
+- Basic is the most popular subcription type used by the majority of customers
+- No customers canceled their subscription within 6 months
+- The average duration for subscription  365 
  
 
  
