@@ -4,6 +4,7 @@
 
 This data analysis project is targeted towards generating insights into customers behavior and subscription trends of a Subscription Service Company. analyzing various aspects of the data, I aim to identify different customer segments and partterns, Understanding customers' preferrence, enabling data-driven decisions to be made.
 
+
 ![Report on revenue generated per subtype](https://github.com/user-attachments/assets/ccfabd31-514b-4ba1-8555-15f4690e6b09)
 
 
