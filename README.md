@@ -55,7 +55,16 @@ The analysis are summarized as follows:
 - There was no subscription longer than 12 months
 - Basic is the highest generating revenue
 - There was no cancelation in the East region
-- The number of active subscription is higher than number of canceled subscription
+- The number of active subscriptions is higher than number of canceled subscriptions
+
+
+### Recommendations
+
+Based on the analysis, we recommend the following actions:
+
+- Focus on expanding and promoting Basic subscriptions
+- Implement a customer segmentation strategy to target high-LTV customers effectively
+- 
  
 
  
