@@ -13,3 +13,17 @@ Customer_Data: The primary data source use for this analysis is the "Customer_da
 - Excel - Data cleaning and analysis with Pivot tables
 - SQL - Data analysis
 - PowerBI - Creating of reports
+
+
+### Data Preparations
+
+In the initial data preparation phase, the following tasks were performed:
+
+1. Data loading and Inspection
+2. Handling missing values
+3. Data cleaning and formating
+
+
+ ### Questions
+
+ 
