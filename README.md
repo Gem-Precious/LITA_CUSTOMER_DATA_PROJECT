@@ -51,7 +51,11 @@ The analysis are summarized as follows:
 - The number of customers in each region are almost evenly distributed
 - Basic is the most popular subcription type used by the majority of customers
 - No customers canceled their subscription within 6 months
-- The average duration for subscription  365 
+- The average duration for all subscriptions was 365 days
+- There was no subscription longer than 12 months
+- Basic is the highest generating revenue
+- There was no cancelation in the East region
+- The number of active subscription is higher than number of canceled subscription
  
 
  
