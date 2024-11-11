@@ -26,4 +26,15 @@ In the initial data preparation phase, the following tasks were performed:
 
  ### Questions
 
+- Retrieve the total sales for each product category.
+- Find the number of sales transactions in each region.
+- Find the highest-selling product by total sales value.
+- Calculate total revenue per product.
+- Calculate monthly sales totals for the current year.
+- Find the top 5 customers by total purchase amount.
+- Calculate the percentage of total sales contributed by each region.
+- Identify products with no sales in the last quarter. 
+ 
+ 
+
  
