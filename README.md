@@ -42,6 +42,50 @@ In the initial data preparation phase, the following tasks were performed:
 
  ~~~ SQL
 
+SELECT * FROM [dbo].[Customer_Data]
+
+SELECT Region, COUNT(CustomerID) As Number_Of_Customers
+FROM [dbo].[Customer_Data]
+GROUP BY Region
+
+SELECT TOP 1 (SubscriptionType) as PopularSubscription,
+count(CustomerID) As CustomerCount
+FROM [dbo].[Customer_Data]
+GROUP BY SubscriptionType
+
+SELECT COUNT(CustomerID) AS CanceledSubscription
+FROM [dbo].[Customer_Data]
+WHERE Canceled = 1 and DATEDIFF(Month,SubscriptionStart,
+SubscriptionEnd) <=6
+
+SELECT AVG(DATEDIFF(Day,SubscriptionStart,SubscriptionEnd))
+AS AverageDuration From [dbo].[Customer_Data] 
+
+SELECT CustomerID, CustomerName, SubscriptionType
+FROM [dbo].[Customer_Data]
+WHERE DATEDIFF(Month,SubscriptionEnd,SubscriptionStart) >12
+
+SELECT SubscriptionType, Sum(Revenue) AS TotalRevenue
+From [dbo].[Customer_Data]
+GROUP BY SubscriptionType
+ORDER BY 2 DESC
+
+SELECT Top 3 Region, Count(Canceled) AS CancelledSub
+FROM [dbo].[Customer_Data]
+WHERE Canceled = 1
+GROUP BY Region
+ORDER BY 2 DESC
+
+SELECT 
+CASE 
+WHEN Canceled = 1 THEN 'Canceled'
+ELSE 'Active'
+END AS SubscriptionStatus,
+COUNT(*) SubscriptionCount
+FROM [dbo].[Customer_Data]
+GROUP BY Canceled
+
+
 ~~~
 
 ### Results
